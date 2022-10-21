@@ -1,0 +1,31 @@
+body{
+    font-family: 'poppins', sans-serif;
+}
+    
+div.hero{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    padding-top: 1%;
+    padding-bottom: 20%;
+    position: relative;
+
+}
+a.nav-link{
+    text-transform: uppercase;
+}
+a.enroll-btn:hover{
+ background-color: salmon;
+ color: white;
+}
+
+div.hero::before{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.476);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+}
+
